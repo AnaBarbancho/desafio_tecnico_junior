@@ -1,15 +1,17 @@
 {
-"compilerOptions": {
-"target": "ESNext",
-"useUnknownInCatchVariables": false,
-"module": "ESNext",
-"lib": ["DOM", "ESNext"],
-"jsx": "react-jsx",
-"moduleResolution": "bundler",
-"esModuleInterop": true,
-"forceConsistentCasingInFileNames": true,
-"strict": true,
-"skipLibCheck": true,
-"verbatimModuleSyntax": true
-}
+  "compilerOptions": {
+    "target": "ESNext",
+    "useUnknownInCatchVariables": false,
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "types": ["vitest/globals", "vite/client"]
+  },
+  "include": ["src", "src/tests", "vite.config.ts"]
 }
