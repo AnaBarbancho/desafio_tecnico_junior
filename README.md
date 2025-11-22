@@ -6,11 +6,11 @@ Projeto de teste Front-End Júnior — React + Vite + TypeScript + Tailwind + Vi
 
 ## Como rodar
 
-1. Instalar dependências
+1. Instalar dependências:
 npm install
 
-2. Rodar em ambiente de desenvolvimento
+2. Rodar em ambiente de desenvolvimento:
 npm run dev
 
-3. Rodar testes
+3. Rodar testes:
 npm run test
